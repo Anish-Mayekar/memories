@@ -1,0 +1,35 @@
+/* Upload.css */
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.upload-section {
+  width: 50%;
+}
+
+.input-section {
+padding-top: 10%;
+padding-left: 50%;
+width: 50%;
+}
+
+.image-preview {
+  margin-top: 20px;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: min-content;
+}
+
+.input-section input,
+.input-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

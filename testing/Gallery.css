@@ -1,0 +1,44 @@
+/* Gallery.css */
+
+.gallery {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column; /* Ensure items are in a single column */
+    align-items: center; /* Center the items horizontally */
+    gap: 100px; /* Space between items */
+    padding: 10px; /* Optional padding for the gallery container */
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.gallery-title {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 2px solid #f0f0f0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.gallery-image {
+    width: 100%; /* Make images responsive */
+    max-width: 600px; /* Set the max width of images */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    /* object-fit: cover; */
+    /* border-radius: 8px; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gallery {
+        flex-direction: column;
+    }
+}
